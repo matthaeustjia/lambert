@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
-    <router-view/>
+    <router-view></router-view>
     <Footer></Footer>
   </div>
 </template>
@@ -18,7 +18,7 @@ export default {
 </script>
 <style lang="scss">
 body {
-  background-color: rgb(48, 48, 48);
+  background-color: rgb(15, 15, 15);
 }
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;

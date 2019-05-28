@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col contact">
-    <h4 class="text-3xl text-text-white">WE WOULD LOVE TO</h4>
-    <h4 class="text-3xl text-text-white mb-5">HEAR FROM YOU</h4>
+    <h4 class="text-3xl text-text-white font-semibold">WE WOULD LOVE TO</h4>
+    <h4 class="text-3xl text-text-white font-semibold mb-5">HEAR FROM YOU</h4>
     <div class="flex flex-col items-center justify-around">
       <div class="flex flex-wrap w-full md:w-3/5 lg:w-1/2 justify-around mb-5">
         <h2 class="w-full text-white mb-3 underline">Contact us</h2>
@@ -110,28 +110,18 @@
             target="_blank"
             href="https://www.youtube.com/channel/UC_W8QzAKx6mbb3x8OkqpbYw"
           >
-            <svg
-              class="mx-2 my-2 w-10 h-10 md:w-16 md:h-16 fill-current text-red hover:text-red-dark"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
-              ></path>
-            </svg>
-            <h5 class="mb-4">Youtube</h5>
+            <img class="mx-2 my-2 w-10 h-10 md:w-16 md:h-16" src="/img/wechat.jpeg" alt="wechat">
+            <h5 class="mb-3">WeChat</h5>
           </a>
         </div>
       </div>
     </div>
 
-    <div class="flex flex-col items-center justify-around">
+    <div class="flex flex-col items-center justify-around mt-5">
       <div class="flex flex-wrap w-full md:w-3/5 lg:w-1/2 justify-around mb-5">
         <h4 class="text-3xl text-white">FOR LARGE GROUP BOOKINGS</h4>
         <p
-          class="text-grey"
+          class="text-grey-dark"
         >For corporate groups and schools, we can be flexible to suit your objectives. To organise multiple rooms or multiple session booking, please contact us via email or through the form in about us.</p>
       </div>
     </div>

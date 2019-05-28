@@ -3,7 +3,7 @@
     <nav class="nav w-full navbar fixed-top navbar-dark navbar-expand-lg">
       <div class="container">
         <router-link class="navbar-brand" to="/">
-          <img src="/favicon.ico" width="30" height="30" alt>
+          <img src="/favicon.ico" width="30" height="30" alt> Mr ?
         </router-link>
         <button
           class="navbar-toggler"
@@ -24,6 +24,9 @@
             </li>
             <li class="nav-item">
               <router-link @click.native="closeNavBar" class="nav-link" to="/about">About</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link @click.native="closeNavBar" class="nav-link" to="/gameslist">Games List</router-link>
             </li>
             <li class="nav-item">
               <router-link @click.native="closeNavBar" class="nav-link" to="/gallery">Gallery</router-link>
@@ -50,18 +53,22 @@ export default {
 
 <style lang="scss" scoped>
 .nav:hover {
-  background-color: rgb(0, 0, 0, 0.6);
+  background-color: rgb(0, 0, 0, 0.9);
 }
 .nav {
   background-color: rgb(0, 0, 0, 0.15);
   transition: background-color 0.5s ease;
+}
+li {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 #nav {
   a {
     color: #e2e8f0;
     font-weight: bold;
     &.router-link-exact-active {
-      color: yellow;
+      color: rgb(242, 207, 35);
     }
   }
 }
